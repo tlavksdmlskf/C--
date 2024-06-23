@@ -15,16 +15,16 @@ public:
 
 Circle::Circle() {
 	radius = 1;
-	cout << "»ý¼ºÀÚ ½ÇÇà radius = " << radius << endl;
+	cout << "ìƒì„±ìž ì‹¤í–‰ radius = " << radius << endl;
 }
 
 Circle::Circle(int radius) {
 	this->radius = radius;
-	cout << "»ý¼ºÀÚ ½ÇÇà radius = " << radius << endl;
+	cout << "ìƒì„±ìž ì‹¤í–‰ radius = " << radius << endl;
 }
 
 Circle::~Circle() {
-	cout << "¼Ò¸êÀÚ ½ÇÇà radius = " << radius << endl;
+	cout << "ì†Œë©¸ìž ì‹¤í–‰ radius = " << radius << endl;
 }
 
 void increaseCircle(Circle& c) {
