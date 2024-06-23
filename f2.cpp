@@ -20,5 +20,5 @@ void readRadius(Circle& n) {
 int main() {
 	Circle donut;
 	readRadius(donut);
-	cout << "donutÀÇ ¸éÀû = " << donut.getArea() << endl;
+	cout << "donutÃ€Ã‡ Â¸Ã©Ã€Ã» = " << donut.getArea() << endl;
 }
