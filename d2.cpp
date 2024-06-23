@@ -16,10 +16,10 @@ bool average(int a[], int size, int& avg) {
 int main() {
 	int x[] = { 0, 1, 2, 3,4,5 };
 	int avg;
-	if (average(x, 6, avg)) cout << "Æò±ÕÀº " << avg << endl;
-	else cout << "¸Å°³ º¯¼ö ¿À·ù" << endl;
+	if (average(x, 6, avg)) cout << "í‰ê· ì€ " << avg << endl;
+	else cout << "ë§¤ê°œ ë³€ìˆ˜ ì˜¤ë¥˜" << endl;
 
-	if (average(x, -2, avg)) cout << "Æò±ÕÀº " << avg << endl;
-	else cout << "¸Å°³ º¯¼ö ¿À·ù" << endl;
+	if (average(x, -2, avg)) cout << "í‰ê· ì€ " << avg << endl;
+	else cout << "ë§¤ê°œ ë³€ìˆ˜ ì˜¤ë¥˜" << endl;
 
 }
